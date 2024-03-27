@@ -1,13 +1,13 @@
-alert ("bem vindo ao jogo do numero secreto");
 
-let numeroSecreto = 5;
-let numeroDigitado = parseInt(prompt("digite um numero entre 1 e 10"));
+alert('Bem vindo ao jogo do número secreto');
 
-if(numeroDigitado === numeroSecreto) {
-    alert('parabens voce acertou o numero secreto');
-} else if (numeroDigitado > numeroSecreto)(
-    alert("voce digitou um numero maior que o numero secreto");
-)
- else {
-    alert("voce digitou um numero maior que o numero secreto");
- }
+let numeroSecreto = 3;
+let numeroDigitado = parseInt(prompt('Digite um número de 1 a 5'));
+
+if(numeroDigitado === numeroSecreto){
+    alert('Parabéns, você acertou!');
+} else if(numeroDigitado > numeroSecreto){
+    alert('Você digitou um número maior que o número secreto');
+} else {
+    alert('Você digitou um número menor que o número secreto');
+}
