@@ -8,5 +8,4 @@ let valor2 = parseInt (prompt ("digite seu segundo valor"));
 let soma = (valor1 + valor2);
 
 //crie um alert para aparecer a soma dos valores
-
 alert (`seu resultado é: ${soma}`);
